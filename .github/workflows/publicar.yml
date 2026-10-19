@@ -1,0 +1,44 @@
+name: Publicar Instagram e Facebook
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+    inputs:
+      teste:
+        description: "Só conferir o token (não publica)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            fila
+            publicador
+      - name: Publicar o que chegou na hora
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+        run: python3 publicador/publicar.py ${{ inputs.teste && '--teste' || '' }}
+      - name: Gravar resultado
+        if: always()
+        run: |
+          git config user.name "publicador-quintal"
+          git config user.email "publicador@users.noreply.github.com"
+          git add fila
+          if ! git diff --cached --quiet; then
+            git commit -q -m "publicador: resultado $(date -u +%FT%TZ)"
+            for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done
+          fi
