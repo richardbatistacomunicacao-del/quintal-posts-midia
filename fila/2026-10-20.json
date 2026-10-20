@@ -1,5 +1,65 @@
 [
  {
+  "id": "2026-10-20T15:15-story-destaque-conexoes-1",
+  "quando": "2026-10-20T15:15:00-03:00",
+  "tipo": "story",
+  "redes": [
+   "instagram",
+   "facebook"
+  ],
+  "midia": [
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/destaques/15-conexoes-frame-01.jpg"
+  ],
+  "capa": null,
+  "legenda": "",
+  "colaboradores": []
+ },
+ {
+  "id": "2026-10-20T15:16-story-destaque-conexoes-2",
+  "quando": "2026-10-20T15:16:00-03:00",
+  "tipo": "story",
+  "redes": [
+   "instagram",
+   "facebook"
+  ],
+  "midia": [
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/destaques/15-conexoes-frame-02.jpg"
+  ],
+  "capa": null,
+  "legenda": "",
+  "colaboradores": []
+ },
+ {
+  "id": "2026-10-20T15:17-story-destaque-conexoes-3",
+  "quando": "2026-10-20T15:17:00-03:00",
+  "tipo": "story",
+  "redes": [
+   "instagram",
+   "facebook"
+  ],
+  "midia": [
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/destaques/15-conexoes-frame-03.jpg"
+  ],
+  "capa": null,
+  "legenda": "",
+  "colaboradores": []
+ },
+ {
+  "id": "2026-10-20T15:18-story-destaque-conexoes-4",
+  "quando": "2026-10-20T15:18:00-03:00",
+  "tipo": "story",
+  "redes": [
+   "instagram",
+   "facebook"
+  ],
+  "midia": [
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/destaques/15-conexoes-frame-04.jpg"
+  ],
+  "capa": null,
+  "legenda": "",
+  "colaboradores": []
+ },
+ {
   "id": "2026-10-20T19:00-story-04-por-que-a-quintal-frame-01",
   "quando": "2026-10-20T19:00:00-03:00",
   "tipo": "story",
