@@ -37,8 +37,12 @@ def chamar(metodo, url, dados=None, cabecalhos=None, corpo=None, tempo=120):
     except urllib.error.HTTPError as e:
         txt = e.read().decode("utf-8", "replace")
         try:
-            erro = json.loads(txt).get("error", {})
-            txt = f"{erro.get('message')} (code {erro.get('code')}, subcode {erro.get('error_subcode')})"
+            corpo = json.loads(txt)
+            erro = corpo.get("error", {}) if isinstance(corpo, dict) else {}
+            if isinstance(erro, dict):  # Meta: {"error": {"message", "code", ...}}
+                txt = f"{erro.get('message')} (code {erro.get('code')}, subcode {erro.get('error_subcode')})"
+            else:  # Google OAuth: {"error": "invalid_client", "error_description": "..."}
+                txt = f"{erro}: {corpo.get('error_description', '')}"
         except ValueError:
             pass
         raise ErroMeta(f"HTTP {e.code}: {txt}") from None
