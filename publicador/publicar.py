@@ -177,7 +177,11 @@ def main():
     if not token:
         print("Falta o segredo META_TOKEN (Settings > Secrets and variables > Actions). Nada publicado.")
         return 0
-    meta = Meta(token)
+    try:
+        meta = Meta(token)
+    except ErroMeta as e:  # token vencido ou inválido: avisa no log sem falhar a cada 10 min (evita e-mail repetido)
+        print(f"TOKEN DA META COM PROBLEMA, nada publicado: {e}")
+        return 0
     print(f"Página: {meta.pagina} | Instagram: @{meta.ig_nome or '(não ligado)'}")
     if "--teste" in sys.argv:
         return 0
