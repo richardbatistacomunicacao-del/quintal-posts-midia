@@ -137,6 +137,32 @@ class Meta:
         return self.post(f"{PAGINA_ID}/photo_stories", photo_id=foto).get("post_id", foto)
 
 
+class YouTube:
+    """Shorts no canal do Quintal (YouTube Data API v3). Segredos: YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN."""
+    def __init__(self, cid, segredo, refresh):
+        r = chamar("POST", "https://oauth2.googleapis.com/token", dados={
+            "client_id": cid, "client_secret": segredo, "refresh_token": refresh, "grant_type": "refresh_token"})
+        self.token = r["access_token"]
+
+    def reel(self, item):
+        titulo = (item.get("titulo") or item["legenda"].split("\n")[0])[:90].rstrip() + " #Shorts"
+        meta = {"snippet": {"title": titulo[:100], "description": item["legenda"][:4900], "categoryId": "22",
+                            "defaultLanguage": "pt-BR", "tags": ["quintaldenegocios", "Shorts"]},
+                "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False}}
+        dados = baixar(item["midia"][0])
+        req = urllib.request.Request(
+            "https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status",
+            data=json.dumps(meta).encode(), method="POST",
+            headers={"Authorization": f"Bearer {self.token}", "Content-Type": "application/json; charset=UTF-8",
+                     "X-Upload-Content-Type": "video/mp4", "X-Upload-Content-Length": str(len(dados))})
+        try:
+            with urllib.request.urlopen(req, timeout=120) as r:
+                destino = r.headers["Location"]
+        except urllib.error.HTTPError as e:
+            raise ErroMeta(f"YouTube HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:300]}") from None
+        return chamar("PUT", destino, corpo=dados, tempo=600, cabecalhos={"Content-Type": "video/mp4"})["id"]
+
+
 def baixar(url):
     with urllib.request.urlopen(url, timeout=300) as r:
         return r.read()
@@ -146,17 +172,20 @@ def agora():
     return dt.datetime.now(dt.timezone.utc)
 
 
-def publicar_item(meta, item):
+def publicar_item(meta, item, yt=None):
     item.setdefault("feito", {})
     item["erros"] = {}
     for rede in item["redes"]:
-        if rede in item["feito"]:
+        if rede in item["feito"] or (rede == "youtube" and not yt):
             continue
         if rede == "instagram" and not meta.ig:
             item["erros"][rede] = "página sem Instagram profissional ligado"
             continue
         try:
-            item["feito"][rede] = getattr(meta, f"{'ig' if rede == 'instagram' else 'fb'}_{item['tipo']}")(item)
+            if rede == "youtube":
+                item["feito"][rede] = yt.reel(item)
+            else:
+                item["feito"][rede] = getattr(meta, f"{'ig' if rede == 'instagram' else 'fb'}_{item['tipo']}")(item)
             print(f"  ok {rede}: {item['feito'][rede]}")
         except Exception as e:  # registra e segue para a próxima rede
             item["erros"][rede] = str(e)[:500]
@@ -167,8 +196,11 @@ def publicar_item(meta, item):
     item["publicado_em"] = agora().isoformat(timespec="seconds")
 
 
+REDES_ATIVAS = {"instagram", "facebook"}
+
+
 def pendente(item):
-    return any(r not in item.get("feito", {}) for r in item["redes"]) and item.get("tentativas", 0) < TENTATIVAS \
+    return any(r not in item.get("feito", {}) for r in item["redes"] if r in REDES_ATIVAS) and item.get("tentativas", 0) < TENTATIVAS \
         and not item.get("pular")
 
 
@@ -183,6 +215,16 @@ def main():
         print(f"TOKEN DA META COM PROBLEMA, nada publicado: {e}")
         return 0
     print(f"Página: {meta.pagina} | Instagram: @{meta.ig_nome or '(não ligado)'}")
+    yt = None
+    if all(os.environ.get(k) for k in ("YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN")):
+        try:
+            yt = YouTube(os.environ["YT_CLIENT_ID"], os.environ["YT_CLIENT_SECRET"], os.environ["YT_REFRESH_TOKEN"])
+            REDES_ATIVAS.add("youtube")
+            print("YouTube: conectado")
+        except ErroMeta as e:
+            print(f"YOUTUBE COM PROBLEMA (segue sem YouTube): {e}")
+    else:
+        print("YouTube: sem segredos YT_* (segue sem YouTube)")
     if "--teste" in sys.argv:
         return 0
     arquivos = [sys.argv[sys.argv.index("--arquivo") + 1]] if "--arquivo" in sys.argv else \
@@ -200,7 +242,7 @@ def main():
                 mudou = True
                 continue
             print(f"{item['id']} ({item['tipo']}, {item['quando']})")
-            publicar_item(meta, item)
+            publicar_item(meta, item, yt)
             mudou = True
             if item.get("erros") and item["tentativas"] >= TENTATIVAS:
                 falhas.append(f"{item['id']}: {item['erros']}")
