@@ -208,13 +208,11 @@
   "colaboradores": [],
   "feito": {
    "facebook": "122126180139337127",
-   "youtube": "_AScwCiOQZs"
+   "youtube": "_AScwCiOQZs",
+   "instagram": "manual"
   },
   "tentativas": 3,
-  "publicado_em": "2026-10-21T18:03:52+00:00",
-  "erros": {
-   "instagram": "HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
-  }
+  "publicado_em": "2026-10-21T18:03:52+00:00"
  },
  {
   "id": "2026-10-21T12:30-carrossel-dica",
