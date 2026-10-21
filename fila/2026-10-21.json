@@ -212,8 +212,11 @@
    "facebook": "122126180139337127",
    "youtube": "_AScwCiOQZs"
   },
-  "tentativas": 0,
-  "publicado_em": "2026-10-21T17:35:31+00:00"
+  "tentativas": 1,
+  "publicado_em": "2026-10-21T17:41:12+00:00",
+  "erros": {
+   "instagram": "HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+  }
  },
  {
   "id": "2026-10-21T12:30-carrossel-dica",
