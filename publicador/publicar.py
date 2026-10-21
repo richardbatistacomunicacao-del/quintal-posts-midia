@@ -39,10 +39,11 @@ def chamar(metodo, url, dados=None, cabecalhos=None, corpo=None, tempo=120):
         try:
             corpo = json.loads(txt)
             erro = corpo.get("error", {}) if isinstance(corpo, dict) else {}
-            if isinstance(erro, dict):  # Meta: {"error": {"message", "code", ...}}
+            if isinstance(erro, dict) and erro.get("message"):  # Meta: {"error": {"message", "code", ...}}
                 txt = f"{erro.get('message')} (code {erro.get('code')}, subcode {erro.get('error_subcode')})"
-            else:  # Google OAuth: {"error": "invalid_client", "error_description": "..."}
+            elif isinstance(erro, str):  # Google OAuth: {"error": "invalid_client", "error_description": "..."}
                 txt = f"{erro}: {corpo.get('error_description', '')}"
+            # senão (ex.: rupload devolve {"debug_info": {...}}) fica o corpo inteiro em txt
         except ValueError:
             pass
         raise ErroMeta(f"HTTP {e.code}: {txt}") from None
