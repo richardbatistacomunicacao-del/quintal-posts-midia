@@ -210,8 +210,8 @@
    "facebook": "122126180139337127",
    "youtube": "_AScwCiOQZs"
   },
-  "tentativas": 1,
-  "publicado_em": "2026-10-21T17:52:32+00:00",
+  "tentativas": 2,
+  "publicado_em": "2026-10-21T17:58:12+00:00",
   "erros": {
    "instagram": "HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
   }
