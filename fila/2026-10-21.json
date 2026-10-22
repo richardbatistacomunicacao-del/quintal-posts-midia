@@ -720,7 +720,13 @@
   ],
   "capa": null,
   "legenda": "",
-  "colaboradores": []
+  "colaboradores": [],
+  "feito": {
+   "instagram": "18045835160818163",
+   "facebook": "1483499987175110"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-22T00:08:44+00:00"
  },
  {
   "id": "2026-10-21T21:05-story-09-revisao-frame-06",
@@ -735,7 +741,13 @@
   ],
   "capa": null,
   "legenda": "",
-  "colaboradores": []
+  "colaboradores": [],
+  "feito": {
+   "instagram": "18101629160376368",
+   "facebook": "1098728356340104"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-22T00:09:06+00:00"
  },
  {
   "id": "2026-10-21T21:06-story-09-revisao-frame-07",
@@ -750,6 +762,12 @@
   ],
   "capa": null,
   "legenda": "",
-  "colaboradores": []
+  "colaboradores": [],
+  "feito": {
+   "instagram": "17985979719045299",
+   "facebook": "1120415327116949"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-22T00:09:30+00:00"
  }
 ]
