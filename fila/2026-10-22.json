@@ -649,7 +649,13 @@
   ],
   "capa": null,
   "legenda": "",
-  "colaboradores": []
+  "colaboradores": [],
+  "feito": {
+   "instagram": "18018362780943365",
+   "facebook": "4641187926197936"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-23T00:06:41+00:00"
  },
  {
   "id": "2026-10-22T21:03-story-12-advisor-frame-04",
@@ -664,7 +670,13 @@
   ],
   "capa": null,
   "legenda": "",
-  "colaboradores": []
+  "colaboradores": [],
+  "feito": {
+   "instagram": "18400935553202706",
+   "facebook": "1514441300607233"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-23T00:07:01+00:00"
  },
  {
   "id": "2026-10-22T21:04-story-12-advisor-frame-05",
@@ -679,7 +691,13 @@
   ],
   "capa": null,
   "legenda": "",
-  "colaboradores": []
+  "colaboradores": [],
+  "feito": {
+   "instagram": "18114602756011186",
+   "facebook": "1396383072485061"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-23T00:07:23+00:00"
  },
  {
   "id": "2026-10-22T21:05-story-12-advisor-frame-06",
@@ -694,6 +712,12 @@
   ],
   "capa": null,
   "legenda": "",
-  "colaboradores": []
+  "colaboradores": [],
+  "feito": {
+   "instagram": "18095998943670364",
+   "facebook": "1109509504813914"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-23T00:07:42+00:00"
  }
 ]
