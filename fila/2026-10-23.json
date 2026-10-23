@@ -296,7 +296,13 @@
   "capa": null,
   "legenda": "",
   "colaboradores": [],
-  "titulo": null
+  "titulo": null,
+  "feito": {
+   "instagram": "18187870855423385",
+   "facebook": "2028794504495016"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-23T20:15:15+00:00"
  },
  {
   "id": "2026-10-23T19:00-story-13-palestras-frame-01",
