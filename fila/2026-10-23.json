@@ -681,8 +681,12 @@
   "legenda": "",
   "colaboradores": [],
   "titulo": null,
-  "feito": {},
-  "tentativas": 0
+  "feito": {
+   "instagram": "18628297900036674",
+   "facebook": "1441080644813682"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-23T23:31:14+00:00"
  },
  {
   "id": "2026-10-23T20:31-story-02-onde-atuamos-v3-frame-02",
@@ -699,8 +703,12 @@
   "legenda": "",
   "colaboradores": [],
   "titulo": null,
-  "feito": {},
-  "tentativas": 0
+  "feito": {
+   "instagram": "18223848874337831",
+   "facebook": "2015010159213650"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-23T23:31:28+00:00"
  },
  {
   "id": "2026-10-23T20:32-story-02-onde-atuamos-v3-frame-03",
