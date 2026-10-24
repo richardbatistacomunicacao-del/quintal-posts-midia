@@ -34,5 +34,38 @@
   "legenda": "",
   "colaboradores": [],
   "titulo": null
+ },
+ {
+  "id": "2026-10-25T19:00-reel-alerta-843",
+  "quando": "2026-10-25T19:00:00-03:00",
+  "tipo": "reel",
+  "redes": [
+   "instagram",
+   "facebook",
+   "youtube"
+  ],
+  "midia": [
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/2026-10-25/reel-alerta-843.mp4"
+  ],
+  "capa": "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/2026-10-25/reel-alerta-843-capa.jpg",
+  "legenda": "O STF tirou o crédito presumido de ICMS da base do PIS e da Cofins. E isso pode significar imposto pago a mais nos últimos anos.\n\nEm 7/10/2026, no Tema 843, o Supremo decidiu por 7 votos a 4 que o crédito presumido de ICMS não é receita da empresa: é um custo menor, vindo de um incentivo estadual. Se ele entrou na base do PIS e da Cofins, a empresa pagou sobre algo que não devia.\n\nMas o STF ainda não definiu a partir de quando a decisão vale. Por isso, antes de pedir de volta, faça a conta com um especialista e com o seu contador.\n\nNa Quintal, quem cuida disso é o Marcus Bizutti: mais de 13 anos em controladoria e tributário, contador com CRC ativo e pós em Reforma Tributária.\n\nNos chame agora no contato@quintaldenegocios.com.br e saiba como obter o benefício.\n\n#stf #pisecofins #icms #creditopresumido #incentivofiscal #recuperacaotributaria #gestaotributaria #quintaldenegocios",
+  "colaboradores": [],
+  "titulo": "STF tira o crédito presumido de ICMS do PIS e da Cofins"
+ },
+ {
+  "id": "2026-10-25T19:10-story-reel-alerta-843",
+  "quando": "2026-10-25T19:10:00-03:00",
+  "tipo": "story",
+  "redes": [
+   "instagram",
+   "facebook"
+  ],
+  "midia": [
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/2026-10-25/reel-alerta-843.mp4"
+  ],
+  "capa": null,
+  "legenda": "",
+  "colaboradores": [],
+  "titulo": null
  }
 ]
