@@ -813,8 +813,12 @@
   "legenda": "",
   "colaboradores": [],
   "titulo": null,
-  "feito": {},
-  "tentativas": 0
+  "feito": {
+   "instagram": "18125373820905547",
+   "facebook": "1419827143652950"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-24T00:03:09+00:00"
  },
  {
   "id": "2026-10-23T21:01-story-01-quem-somos-v2-frame-08",
@@ -831,7 +835,11 @@
   "legenda": "",
   "colaboradores": [],
   "titulo": null,
-  "feito": {},
-  "tentativas": 0
+  "feito": {
+   "instagram": "17884334208528304",
+   "facebook": "1116923267973632"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-24T00:03:39+00:00"
  }
 ]
