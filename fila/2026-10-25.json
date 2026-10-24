@@ -1,0 +1,38 @@
+[
+ {
+  "id": "2026-10-25T14:00-carrossel-alerta",
+  "quando": "2026-10-25T14:00:00-03:00",
+  "tipo": "carrossel",
+  "redes": [
+   "instagram",
+   "facebook"
+  ],
+  "midia": [
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/2026-10-25/01-alerta-slide-01.jpg",
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/2026-10-25/01-alerta-slide-02.jpg",
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/2026-10-25/01-alerta-slide-03.jpg",
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/2026-10-25/01-alerta-slide-04.jpg",
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/2026-10-25/01-alerta-slide-05.jpg"
+  ],
+  "capa": null,
+  "legenda": "Se a sua empresa recebe crédito presumido de ICMS, ela pode ter pago PIS e Cofins sobre um dinheiro que nunca entrou no caixa.\n\nEm 7/10/2026, o STF julgou o Tema 843 e decidiu, por 7 votos a 4, que os créditos presumidos de ICMS não entram na base de cálculo do PIS e da Cofins. A tese vale para os demais processos sobre o assunto.\n\nO raciocínio é simples. Para a maioria dos ministros, o crédito presumido não é receita nova da empresa: é um custo menor, vindo de um incentivo que os estados concedem para estimular a atividade empresarial. E PIS e Cofins incidem sobre receita. Pagar menos ICMS não é faturar mais.\n\nPor isso, tem um ponto que pede atenção: o STF ainda não definiu a partir de quando a decisão vale. Sem essa limitação, o que foi recolhido a mais pode voltar para a empresa, respeitado o prazo de prescrição. Então, vale levantar os números agora.\n\nNos próximos dias, a gente mostra como saber se a decisão vale para você, quanto isso pode representar e os cuidados antes de agir.\n\nQuem cuida disso na Quintal é o Marcus Bizutti, nosso especialista tributário.\n\nNos chame agora no contato@quintaldenegocios.com.br e saiba como obter o benefício.\n\nEntre em contato\nLink na Bio\n\nFotos: Katrin Bolovtsova / Pexels; Pexels, foto 7567485\n\n#stf #pisecofins #icms #creditopresumido #incentivofiscal #recuperacaotributaria #lucroreal #gestaotributaria #quintaldenegocios",
+  "colaboradores": [],
+  "titulo": "STF tira o crédito presumido de ICMS da base do PIS e da Cofins"
+ },
+ {
+  "id": "2026-10-25T14:10-story-alerta",
+  "quando": "2026-10-25T14:10:00-03:00",
+  "tipo": "story",
+  "redes": [
+   "instagram",
+   "facebook"
+  ],
+  "midia": [
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/2026-10-25/story-01-alerta.jpg"
+  ],
+  "capa": null,
+  "legenda": "",
+  "colaboradores": [],
+  "titulo": null
+ }
+]
