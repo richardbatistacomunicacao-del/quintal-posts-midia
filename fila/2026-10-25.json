@@ -135,7 +135,13 @@
   "capa": null,
   "legenda": "",
   "colaboradores": [],
-  "titulo": null
+  "titulo": null,
+  "feito": {
+   "instagram": "18653162638012468",
+   "facebook": "2065131437479520"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-25T12:40:35+00:00"
  },
  {
   "id": "2026-10-25T10:30-carrossel-neuro",
