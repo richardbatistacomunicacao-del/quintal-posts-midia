@@ -113,7 +113,13 @@
   "capa": null,
   "legenda": "Tem empresa com o site aberto a invasão e nem sabe. O motivo é uma atualização que não acontece sozinha.\n\nDuas falhas críticas no PHP permitem executar código em servidores web sem precisar de login. A correção saiu em 21/10, mas não é instalada automaticamente, e o PHP 8.1 e as versões anteriores, fora de suporte, continuam vulneráveis. Como sites em WordPress rodam em PHP, vale pedir hoje à sua hospedagem para atualizar.\n\nE o atendimento no WhatsApp ganhou mais uma opção corporativa. A Claro empresas lançou o IAtende, que usa a API oficial do WhatsApp Business: vários atendentes ao mesmo tempo, chatbots, fluxos automáticos, integração com CRM e ERP e indicadores de desempenho.\n\nPor fim, o Canva lançou o Craft, seu primeiro modelo próprio de imagens com IA. Ele foi treinado com templates feitos por pessoas para gerar imagens com texto legível e layout organizado, e está liberado para todos os usuários, inclusive contas gratuitas, com os limites normais de uso.\n\nTambém no radar:\nCapCut anuncia plugin para criar e editar vídeos dentro do ChatGPT, com beta em novembro (Startupi)\n1Password lança login para agentes de IA sem mostrar a senha (TechCrunch)\nItália passa a exigir decisão humana em contratações e demissões feitas com IA (ActuIA)\nMineMind, startup brasileira de IA para mineração, capta US$ 1 milhão (Exame)\n\nQuando foi a última vez que alguém atualizou o site da sua empresa?\n\nEntre em contato\nLink na Bio\n\nFotos: Pexels, foto 36496927; Pexels, foto 7620626\n\n#inovacao #segurancadigital #php #wordpress #whatsappbusiness #inteligenciaartificial #canva #tecnologia #quintaldenegocios",
   "colaboradores": [],
-  "titulo": "Falha crítica no PHP, WhatsApp com IA da Claro e o Craft do Canva"
+  "titulo": "Falha crítica no PHP, WhatsApp com IA da Claro e o Craft do Canva",
+  "feito": {
+   "instagram": "17899259799396040",
+   "facebook": "1057856840751776_122126668497337127"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-25T12:35:12+00:00"
  },
  {
   "id": "2026-10-25T09:40-story-inovacao",
