@@ -231,7 +231,13 @@
   "capa": null,
   "legenda": "",
   "colaboradores": [],
-  "titulo": null
+  "titulo": null,
+  "feito": {
+   "instagram": "18110747854906305",
+   "facebook": "1085404757826522"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-25T15:42:58+00:00"
  },
  {
   "id": "2026-10-25T14:00-carrossel-alerta",
