@@ -351,13 +351,11 @@
   "titulo": "STF tira o crédito presumido de ICMS do PIS e da Cofins",
   "feito": {
    "facebook": "122126720727337127",
-   "youtube": "l028jN9_Usg"
+   "youtube": "l028jN9_Usg",
+   "instagram": "18129537731492392"
   },
-  "erros": {
-   "instagram": "HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
-  },
-  "tentativas": 1,
-  "publicado_em": "2026-10-25T22:02:06+00:00"
+  "tentativas": 2,
+  "publicado_em": "2026-10-25T22:07:41+00:00"
  },
  {
   "id": "2026-10-25T19:10-story-reel-alerta-843",
