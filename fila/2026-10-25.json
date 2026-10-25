@@ -302,7 +302,14 @@
   "capa": "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/2026-10-25/reel-03-inovacao-capa.jpg",
   "legenda": "Tem empresa com o site aberto a invasão e nem sabe. O motivo é uma atualização que não acontece sozinha.\n\nDuas falhas críticas no PHP permitem executar código em servidores web sem precisar de login. A correção saiu em 21/10, mas não é instalada automaticamente, e o PHP 8.1 e as versões anteriores, fora de suporte, continuam vulneráveis. Como sites em WordPress rodam em PHP, vale pedir hoje à sua hospedagem para atualizar.\n\nO carrossel completo está no perfil.\n\nEntre em contato\nLink na Bio\n\nVídeo: nº 854078 / Pexels\n\n#inovacao #segurancadigital #php #wordpress #whatsappbusiness #inteligenciaartificial #canva #tecnologia #quintaldenegocios",
   "colaboradores": [],
-  "titulo": "O erro que pode deixar o site da sua empresa aberto a invasão"
+  "titulo": "O erro que pode deixar o site da sua empresa aberto a invasão",
+  "feito": {
+   "instagram": "18113833493166020",
+   "facebook": "122126711979337127",
+   "youtube": "urOxeZyIa68"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-25T20:05:19+00:00"
  },
  {
   "id": "2026-10-25T17:10-story-reel-03-inovacao",
