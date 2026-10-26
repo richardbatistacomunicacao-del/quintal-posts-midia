@@ -389,7 +389,13 @@
   "capa": null,
   "legenda": "",
   "colaboradores": [],
-  "titulo": null
+  "titulo": null,
+  "feito": {
+   "instagram": "18575772814078289",
+   "facebook": "1476660304453614"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-26T23:06:33+00:00"
  },
  {
   "id": "2026-10-26T20:03-story-01-quem-somos-frame-04",
@@ -405,7 +411,13 @@
   "capa": null,
   "legenda": "",
   "colaboradores": [],
-  "titulo": null
+  "titulo": null,
+  "feito": {
+   "instagram": "17921600166445156",
+   "facebook": "29244467441855559"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-26T23:06:53+00:00"
  },
  {
   "id": "2026-10-26T20:04-story-01-quem-somos-frame-05",
@@ -421,7 +433,13 @@
   "capa": null,
   "legenda": "",
   "colaboradores": [],
-  "titulo": null
+  "titulo": null,
+  "feito": {
+   "instagram": "17975632920147146",
+   "facebook": "1898199124485312"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-26T23:07:15+00:00"
  },
  {
   "id": "2026-10-26T20:05-story-01-quem-somos-frame-06",
@@ -437,6 +455,12 @@
   "capa": null,
   "legenda": "",
   "colaboradores": [],
-  "titulo": null
+  "titulo": null,
+  "feito": {
+   "instagram": "17913777225499853",
+   "facebook": "1693504265896040"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-26T23:07:33+00:00"
  }
 ]
