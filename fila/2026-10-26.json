@@ -317,5 +317,101 @@
   "legenda": "",
   "colaboradores": [],
   "titulo": null
+ },
+ {
+  "id": "2026-10-26T20:00-story-01-quem-somos-frame-01",
+  "quando": "2026-10-26T20:00:00-03:00",
+  "tipo": "story",
+  "redes": [
+   "instagram",
+   "facebook"
+  ],
+  "midia": [
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/destaques/01-quem-somos-frame-01.jpg"
+  ],
+  "capa": null,
+  "legenda": "",
+  "colaboradores": [],
+  "titulo": null
+ },
+ {
+  "id": "2026-10-26T20:01-story-01-quem-somos-frame-02",
+  "quando": "2026-10-26T20:01:00-03:00",
+  "tipo": "story",
+  "redes": [
+   "instagram",
+   "facebook"
+  ],
+  "midia": [
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/destaques/01-quem-somos-frame-02.jpg"
+  ],
+  "capa": null,
+  "legenda": "",
+  "colaboradores": [],
+  "titulo": null
+ },
+ {
+  "id": "2026-10-26T20:02-story-01-quem-somos-frame-03",
+  "quando": "2026-10-26T20:02:00-03:00",
+  "tipo": "story",
+  "redes": [
+   "instagram",
+   "facebook"
+  ],
+  "midia": [
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/destaques/01-quem-somos-frame-03.jpg"
+  ],
+  "capa": null,
+  "legenda": "",
+  "colaboradores": [],
+  "titulo": null
+ },
+ {
+  "id": "2026-10-26T20:03-story-01-quem-somos-frame-04",
+  "quando": "2026-10-26T20:03:00-03:00",
+  "tipo": "story",
+  "redes": [
+   "instagram",
+   "facebook"
+  ],
+  "midia": [
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/destaques/01-quem-somos-frame-04.jpg"
+  ],
+  "capa": null,
+  "legenda": "",
+  "colaboradores": [],
+  "titulo": null
+ },
+ {
+  "id": "2026-10-26T20:04-story-01-quem-somos-frame-05",
+  "quando": "2026-10-26T20:04:00-03:00",
+  "tipo": "story",
+  "redes": [
+   "instagram",
+   "facebook"
+  ],
+  "midia": [
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/destaques/01-quem-somos-frame-05.jpg"
+  ],
+  "capa": null,
+  "legenda": "",
+  "colaboradores": [],
+  "titulo": null
+ },
+ {
+  "id": "2026-10-26T20:05-story-01-quem-somos-frame-06",
+  "quando": "2026-10-26T20:05:00-03:00",
+  "tipo": "story",
+  "redes": [
+   "instagram",
+   "facebook"
+  ],
+  "midia": [
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/destaques/01-quem-somos-frame-06.jpg"
+  ],
+  "capa": null,
+  "legenda": "",
+  "colaboradores": [],
+  "titulo": null
  }
 ]
