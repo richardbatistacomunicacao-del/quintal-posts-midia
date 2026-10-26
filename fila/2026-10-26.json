@@ -345,7 +345,13 @@
   "capa": null,
   "legenda": "",
   "colaboradores": [],
-  "titulo": null
+  "titulo": null,
+  "feito": {
+   "instagram": "18017760059747795",
+   "facebook": "1822784985428224"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-26T23:01:00+00:00"
  },
  {
   "id": "2026-10-26T20:01-story-01-quem-somos-frame-02",
@@ -361,7 +367,13 @@
   "capa": null,
   "legenda": "",
   "colaboradores": [],
-  "titulo": null
+  "titulo": null,
+  "feito": {
+   "instagram": "17950978887301176",
+   "facebook": "1428029638846768"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-26T23:01:11+00:00"
  },
  {
   "id": "2026-10-26T20:02-story-01-quem-somos-frame-03",
