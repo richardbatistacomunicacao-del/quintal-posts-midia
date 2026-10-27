@@ -228,6 +228,36 @@
   "publicado_em": "2026-10-27T17:37:36+00:00"
  },
  {
+  "id": "2026-10-27T14:42-story-marcus-mercado-ig1",
+  "quando": "2026-10-27T14:42:00-03:00",
+  "tipo": "story",
+  "redes": [
+   "instagram"
+  ],
+  "midia": [
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/2026-10-27/story-marcus-mercado-1.mp4"
+  ],
+  "capa": null,
+  "legenda": "",
+  "colaboradores": [],
+  "titulo": null
+ },
+ {
+  "id": "2026-10-27T14:43-story-marcus-mercado-ig2",
+  "quando": "2026-10-27T14:43:00-03:00",
+  "tipo": "story",
+  "redes": [
+   "instagram"
+  ],
+  "midia": [
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/2026-10-27/story-marcus-mercado-2.mp4"
+  ],
+  "capa": null,
+  "legenda": "",
+  "colaboradores": [],
+  "titulo": null
+ },
+ {
   "id": "2026-10-27T17:00-reel-reel-01-advisor",
   "quando": "2026-10-27T17:00:00-03:00",
   "tipo": "reel",
