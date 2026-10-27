@@ -1,0 +1,48 @@
+name: Enviar vídeo ao LinkedIn
+
+# Recebe as URLs de upload (já assinadas, temporárias) que a API do LinkedIn devolveu no initializeUpload
+# e manda os pedaços do vídeo e a capa. Imprime os ETags para o finalizeUpload. Não usa segredo nenhum.
+on:
+  workflow_dispatch:
+    inputs:
+      video:
+        description: "Caminho do .mp4 no repositório"
+        required: true
+      capa:
+        description: "Caminho da capa .jpg (opcional)"
+        required: false
+      instrucoes:
+        description: "JSON com uploadInstructions e thumbnailUploadUrl"
+        required: true
+
+jobs:
+  enviar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Enviar
+        env:
+          INSTR: ${{ inputs.instrucoes }}
+          VIDEO: ${{ inputs.video }}
+          CAPA: ${{ inputs.capa }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request
+          d = json.loads(os.environ["INSTR"])
+          dados = open(os.environ["VIDEO"], "rb").read()
+          etags = []
+          for p in d["uploadInstructions"]:
+              parte = dados[p["firstByte"]:p["lastByte"] + 1]
+              r = urllib.request.urlopen(urllib.request.Request(p["uploadUrl"], data=parte, method="PUT",
+                  headers={"Content-Type": "application/octet-stream"}), timeout=300)
+              etags.append(r.headers.get("ETag"))
+              print("parte", len(etags), r.status, len(parte))
+          if os.environ.get("CAPA") and d.get("thumbnailUploadUrl"):
+              r = urllib.request.urlopen(urllib.request.Request(d["thumbnailUploadUrl"], data=open(os.environ["CAPA"], "rb").read(),
+                  method="PUT", headers={"Content-Type": "application/octet-stream"}), timeout=120)
+              print("capa", r.status)
+          print("ETAGS=" + json.dumps(etags))
+          PY
