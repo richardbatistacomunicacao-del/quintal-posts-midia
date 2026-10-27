@@ -178,6 +178,41 @@
   "publicado_em": "2026-10-27T17:10:57+00:00"
  },
  {
+  "id": "2026-10-27T14:25-reel-marcus-mercado",
+  "quando": "2026-10-27T14:25:00-03:00",
+  "tipo": "reel",
+  "redes": [
+   "instagram",
+   "facebook",
+   "youtube"
+  ],
+  "midia": [
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/2026-10-27/reel-marcus-mercado.mp4"
+  ],
+  "capa": "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/2026-10-27/reel-marcus-mercado-capa.jpg",
+  "legenda": "−13,88% em um dia. E a sua empresa?\n\nO Marcus Bizutti, CFO Partner da Quintal, explica o que aconteceu no dia 26:\n\nO Ibovespa fechou em queda de 13,88%, e a B3 travou o pregão, o que não acontecia desde março de 2020, na pandemia.\nO dólar subiu 8,2% e fechou em R$ 5,40. Na sexta-feira, estava em R$ 4,99.\nOs juros futuros de longo prazo subiram mais de 2,6 pontos percentuais em um dia. O contrato de 2031 foi para 15,24% ao ano.\n\nO mercado não vota. Precifica. E o risco que ele está precificando tem nome: conta fiscal. Seria a mesma pergunta para qualquer governo eleito: como fechar a conta em 2027?\n\nPara o empresário, a tradução é simples: o dinheiro ficou mais caro e mais instável. Nesta semana, o Marcus já sentou com dois clientes para fazer o fluxo de caixa dos próximos 90 dias.\n\nManda para quem cuida do financeiro aí.\n\nA sua empresa está preparada para esse cenário?\n\nSiga @_quintaldenegocios: marca, mercado e números para a sua empresa crescer, todo dia.\n\nEntre em contato\nLink na Bio\n\n#mercadofinanceiro #ibovespa #dolar #juros #fluxodecaixa #gestaofinanceira #cfoasaservice #brandandgrowth #crescimentoempresarial #quintaldenegocios",
+  "colaboradores": [
+   "marcus_bizutti"
+  ],
+  "titulo": "−13,88% em um dia. E a sua empresa? | Marcus Bizutti, Quintal de Negócios"
+ },
+ {
+  "id": "2026-10-27T14:35-story-marcus-mercado",
+  "quando": "2026-10-27T14:35:00-03:00",
+  "tipo": "story",
+  "redes": [
+   "instagram",
+   "facebook"
+  ],
+  "midia": [
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/2026-10-27/reel-marcus-mercado.mp4"
+  ],
+  "capa": null,
+  "legenda": "",
+  "colaboradores": [],
+  "titulo": null
+ },
+ {
   "id": "2026-10-27T17:00-reel-reel-01-advisor",
   "quando": "2026-10-27T17:00:00-03:00",
   "tipo": "reel",
