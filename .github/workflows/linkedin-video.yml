@@ -12,7 +12,7 @@ on:
         description: "Caminho da capa .jpg (opcional)"
         required: false
       instrucoes:
-        description: "JSON com uploadInstructions e thumbnailUploadUrl"
+        description: "JSON com uploadInstructions e thumbnailUploadUrl, ou caminho de um arquivo com esse JSON"
         required: true
 
 jobs:
@@ -31,7 +31,8 @@ jobs:
         run: |
           python3 - <<'PY'
           import json, os, urllib.request
-          d = json.loads(os.environ["INSTR"])
+          i = os.environ["INSTR"].strip()
+          d = json.loads(i if i.startswith("{") else open(i).read())
           dados = open(os.environ["VIDEO"], "rb").read()
           etags = []
           for p in d["uploadInstructions"]:
