@@ -224,8 +224,8 @@
   "erros": {
    "instagram": "HTTP 500: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"{\\\"success\\\":false,\\\"error\\\":{\\\"message\\\":\\\"{\\\\\\\"message\\\\\\\":\\\\\\\"Video Transcoding Error: Invalid video duration: 71.666667. Max duration for stories is 61.0\\\\\\\"}\\\"}}\"}}"
   },
-  "tentativas": 1,
-  "publicado_em": "2026-10-27T17:37:36+00:00"
+  "tentativas": 2,
+  "publicado_em": "2026-10-27T17:43:04+00:00"
  },
  {
   "id": "2026-10-27T14:42-story-marcus-mercado-ig1",
@@ -240,7 +240,13 @@
   "capa": null,
   "legenda": "",
   "colaboradores": [],
-  "titulo": null
+  "titulo": null,
+  "feito": {},
+  "erros": {
+   "instagram": "HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-27T17:43:38+00:00"
  },
  {
   "id": "2026-10-27T14:43-story-marcus-mercado-ig2",
@@ -255,7 +261,12 @@
   "capa": null,
   "legenda": "",
   "colaboradores": [],
-  "titulo": null
+  "titulo": null,
+  "feito": {
+   "instagram": "18104704172255883"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-27T17:44:09+00:00"
  },
  {
   "id": "2026-10-27T17:00-reel-reel-01-advisor",
