@@ -24,8 +24,8 @@
   "erros": {
    "instagram": "HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
   },
-  "tentativas": 1,
-  "publicado_em": "2026-10-28T10:35:19+00:00"
+  "tentativas": 2,
+  "publicado_em": "2026-10-28T10:40:54+00:00"
  },
  {
   "id": "2026-10-28T07:40-story-marcus-orcamento-1",
@@ -41,7 +41,13 @@
   "capa": null,
   "legenda": "",
   "colaboradores": [],
-  "titulo": null
+  "titulo": null,
+  "feito": {
+   "instagram": "18114130034332465",
+   "facebook": "2684097818772360"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-28T10:41:32+00:00"
  },
  {
   "id": "2026-10-28T07:41-story-marcus-orcamento-2",
@@ -57,7 +63,13 @@
   "capa": null,
   "legenda": "",
   "colaboradores": [],
-  "titulo": null
+  "titulo": null,
+  "feito": {
+   "instagram": "18023957513923133",
+   "facebook": "1122615110149836"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-10-28T10:42:23+00:00"
  },
  {
   "id": "2026-10-28T08:00-carrossel-socio-marcus",
