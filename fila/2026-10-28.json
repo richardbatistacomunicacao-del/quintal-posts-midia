@@ -24,8 +24,8 @@
   "erros": {
    "instagram": "HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
   },
-  "tentativas": 2,
-  "publicado_em": "2026-10-28T10:40:54+00:00"
+  "tentativas": 3,
+  "publicado_em": "2026-10-28T10:47:59+00:00"
  },
  {
   "id": "2026-10-28T07:40-story-marcus-orcamento-1",
