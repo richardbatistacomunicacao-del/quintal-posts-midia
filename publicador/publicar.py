@@ -90,6 +90,12 @@ class Meta:
         return self.post(f"{self.ig}/media_publish", creation_id=cid)["id"]
 
     def ig_carrossel(self, item):
+        colab = json.dumps(item.get("colaboradores") or []) if item.get("colaboradores") else None
+        if len(item["midia"]) == 1:  # o Instagram recusa carrossel de 1 item (subcode 2207088): vai como foto
+            c = self.post(f"{self.ig}/media", image_url=item["midia"][0], caption=item["legenda"],
+                          collaborators=colab)["id"]
+            self.ig_esperar(c, 180)
+            return self.ig_publicar(c)
         filhos = []
         for url in item["midia"]:
             filhos.append(self.post(f"{self.ig}/media", image_url=url, is_carousel_item="true")["id"])
