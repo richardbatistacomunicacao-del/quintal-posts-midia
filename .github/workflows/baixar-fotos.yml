@@ -1,0 +1,37 @@
+name: Baixar fotos
+
+# A rotina diária pede aqui as fotos que a rede dela não alcança (fotos/pedidos/*.txt).
+# O GitHub baixa, grava em fotos/cache/ e a rotina puxa pelo raw.githubusercontent.com. Não usa segredo nenhum.
+on:
+  push:
+    branches: [main]
+    paths: ["fotos/pedidos/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: baixar-fotos
+  cancel-in-progress: false
+
+jobs:
+  baixar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: fotos
+      - name: Baixar
+        run: |
+          pip install -q pillow
+          ls fotos/pedidos/*.txt >/dev/null 2>&1 || { echo "nenhum pedido"; exit 0; }
+          python3 fotos/baixar.py
+          git config user.name "fotos-quintal"
+          git config user.email "fotos@users.noreply.github.com"
+          git add -A fotos
+          git diff --cached --quiet && exit 0
+          git commit -q -m "fotos: baixadas $(date -u +%FT%TZ)"
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done
