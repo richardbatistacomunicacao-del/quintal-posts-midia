@@ -81,8 +81,15 @@ class Meta:
         """Contêiner de vídeo com envio pelo próprio publicador (não depende do tipo de arquivo do servidor)."""
         c = self.post(f"{self.ig}/media", upload_type="resumable", **campos)["id"]
         dados = baixar(url)
-        chamar("POST", f"{RUPLOAD}/ig-api-upload/v23.0/{c}", corpo=dados, tempo=600,
-               cabecalhos={"Authorization": f"OAuth {self.token}", "offset": "0", "file_size": str(len(dados))})
+        try:
+            chamar("POST", f"{RUPLOAD}/ig-api-upload/v23.0/{c}", corpo=dados, tempo=600,
+                   cabecalhos={"Authorization": f"OAuth {self.token}", "offset": "0", "file_size": str(len(dados))})
+        except ErroMeta as e:
+            if "ProcessingFailedError" not in str(e):
+                raise
+            # 06/11/2026: o rupload recusou alguns vídeos dos sócios; o Instagram baixa pelo link público
+            print("  rupload recusou; tentando com video_url", flush=True)
+            c = self.post(f"{self.ig}/media", video_url=url, **campos)["id"]
         self.ig_esperar(c)
         return c
 
