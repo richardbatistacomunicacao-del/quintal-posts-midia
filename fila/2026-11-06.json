@@ -196,7 +196,25 @@
    "instagram": "HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
   },
   "tentativas": 1,
-  "publicado_em": "2026-11-06T16:22:45+00:00"
+  "publicado_em": "2026-11-06T16:22:45+00:00",
+  "pular": "falhou (ProcessingFailedError); legenda com 8 hashtags"
+ },
+ {
+  "id": "2026-11-06T13:35-reel-marcus-imposto-ig-5tags",
+  "quando": "2026-11-06T13:35:00-03:00",
+  "tipo": "reel",
+  "redes": [
+   "instagram"
+  ],
+  "midia": [
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/2026-11-05/reel-marcus-imposto.mp4"
+  ],
+  "capa": null,
+  "legenda": "Imposto pago a maior não volta sozinho para o caixa da empresa.\n\nO Marcus Bizutti, CFO Partner da Quintal, explica por quê: não existe nenhum aviso de que a empresa está pagando imposto a mais. E o fiscal, normalmente, segue uma rotina para entregar as obrigações no prazo, não para revisar o que já foi pago.\n\n3 sinais que valem a sua atenção:\n1. O regime tributário foi revisado há mais de dois anos.\n2. A empresa vende produtos com substituição tributária ou no regime monofásico.\n3. A empresa vende para consumidor final de outros estados.\n\nSinal não é certeza de que existe algo a recuperar. Por isso a Quintal trabalha com teses seguras, em parceria com a sua contabilidade.\n\nO primeiro passo é um check-up: em até 10 dias, você sabe se existe imposto a recuperar ou não.\n\nManda para quem cuida do financeiro aí.\n\nA sua empresa marca algum desses sinais?\n\nAgende um bate-papo pelo Método MESA no link da bio.\n\nSiga @_quintaldenegocios: marca, mercado e números para a sua empresa crescer, todo dia.\n\n#recuperacaotributaria #impostos #checkuptributario #brandandgrowth #quintaldenegocios",
+  "colaboradores": [
+   "marcus_bizutti"
+  ],
+  "titulo": "Imposto pago a maior não volta sozinho | Marcus Bizutti, Quintal de Negócios"
  },
  {
   "id": "2026-11-06T17:00-reel-reel-03-case",
