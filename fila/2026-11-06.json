@@ -239,12 +239,11 @@
    "marcus_bizutti"
   ],
   "titulo": "Imposto pago a maior não volta sozinho | Marcus Bizutti, Quintal de Negócios",
-  "feito": {},
-  "erros": {
-   "instagram": "HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}"
+  "feito": {
+   "instagram": "18025507274925362"
   },
-  "tentativas": 1,
-  "publicado_em": "2026-11-06T16:44:02+00:00"
+  "tentativas": 2,
+  "publicado_em": "2026-11-06T16:50:40+00:00"
  },
  {
   "id": "2026-11-06T17:00-reel-reel-03-case",
