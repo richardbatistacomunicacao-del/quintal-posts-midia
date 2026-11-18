@@ -97,7 +97,15 @@
   "capa": null,
   "legenda": "",
   "colaboradores": [],
-  "titulo": "Na Rocinha, 63% dos negócios são liderados por mulheres, e 69% querem aprender marketing: "
+  "titulo": "Na Rocinha, 63% dos negócios são liderados por mulheres, e 69% querem aprender marketing: ",
+  "feito": {
+   "facebook": "1698057895181943"
+  },
+  "erros": {
+   "instagram": "HTTP 400: The requested resource does not exist (code 24, subcode 2207006)"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-11-18T12:31:25+00:00"
  },
  {
   "id": "2026-11-18T09:35-short-03-case",
