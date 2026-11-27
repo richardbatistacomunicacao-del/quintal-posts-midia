@@ -296,7 +296,13 @@
   "capa": null,
   "legenda": "",
   "colaboradores": [],
-  "titulo": null
+  "titulo": null,
+  "feito": {
+   "instagram": "18130911445880042",
+   "facebook": "1417943593744965"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-11-27T22:05:58+00:00"
  },
  {
   "id": "2026-11-27T17:00-carrossel-socio-marcus",
@@ -319,7 +325,13 @@
   "colaboradores": [
    "marcus_bizutti"
   ],
-  "titulo": "Fim do regime de caixa no Simples: imposto antes de receber"
+  "titulo": "Fim do regime de caixa no Simples: imposto antes de receber",
+  "feito": {
+   "instagram": "18152777095561490",
+   "facebook": "1057856840751776_122131311747337127"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-11-27T22:06:42+00:00"
  },
  {
   "id": "2026-11-27T17:05-short-01-socio-marcus",
@@ -334,6 +346,11 @@
   "capa": null,
   "legenda": "Já pensou em pagar imposto de uma venda que o cliente ainda não te pagou? A partir de 1º de janeiro de 2027, isso vira regra no Simples Nacional.\n\nA Lei Complementar 214/2025, a da reforma tributária, mudou o art. 18, §3º, da LC 123 (art. 517). O DAS passa a ser calculado sobre a receita bruta auferida no mês, pelo regime de competência. A opção pelo regime de caixa, que hoje deixa pagar só quando o dinheiro entra, vale até 31 de dezembro de 2026.\n\nE aqui está o perigo. Vendeu R$ 50 mil em janeiro de 2027 para receber em 90 dias? O imposto dessa venda entra na guia de janeiro, que vence em fevereiro, muito antes de o cliente pagar. Se ele atrasar, o imposto já saiu do seu caixa do mesmo jeito.\n\nPor isso, quem vende a prazo, parcelado ou no boleto precisa fazer a conta agora: mapear as vendas a prazo, rever prazos e entrada, simular o DAS por competência e separar uma reserva para os primeiros meses de 2027.\n\nQuer saber quanto isso pesa no caixa da sua empresa? Chama a gente no direct ou comenta CAIXA. O Marcus Bizutti, nosso CFO Partner, olha o seu caso com você.\n\nFonte: LC 214/2025, art. 517 (nova redação do art. 18, §3º, da LC 123/2006).\n\nSiga @_quintaldenegocios: marca, mercado e números para a sua empresa crescer, todo dia.\n\nEntre em contato\nLink na Bio\n\nFotos: Arquivo pessoal / Marcus Bizutti\n\n#simplesnacional #reformatributaria #regimedecaixa #brandandgrowth #quintaldenegocios",
   "colaboradores": [],
-  "titulo": "Fim do regime de caixa no Simples: imposto antes de receber"
+  "titulo": "Fim do regime de caixa no Simples: imposto antes de receber",
+  "feito": {
+   "youtube": "FU3OKXLanIE"
+  },
+  "tentativas": 1,
+  "publicado_em": "2026-11-27T22:06:45+00:00"
  }
 ]
