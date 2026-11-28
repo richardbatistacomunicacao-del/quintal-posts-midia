@@ -126,6 +126,22 @@
   "titulo": "Fim do regime de caixa no Simples: imposto antes de receber"
  },
  {
+  "id": "2026-11-28T12:10-story-story-marcus-reel",
+  "quando": "2026-11-28T12:10:00-03:00",
+  "tipo": "story",
+  "redes": [
+   "instagram",
+   "facebook"
+  ],
+  "midia": [
+   "https://raw.githubusercontent.com/richardbatistacomunicacao-del/quintal-posts-midia/main/2026-11-28/reel-marcus-fim-regime-de-caixa-capa.jpg"
+  ],
+  "capa": null,
+  "legenda": "",
+  "colaboradores": [],
+  "titulo": null
+ },
+ {
   "id": "2026-11-28T12:20-carrossel-almoco",
   "quando": "2026-11-28T12:20:00-03:00",
   "tipo": "carrossel",
